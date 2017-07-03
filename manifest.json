@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "MyBookMarks",
+    "description": "ChromeExtension",
+    "version": "1.0.0",
+    "icons" : {
+        "16" : "./img/favicon16.png",
+        "24" : "./img/favicon24.png",
+        "32" : "./img/favicon32.png",
+        "48" : "./img/favicon48.png",
+        "128" : "./img/favicon128.png"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "browser_action": {
+        "default_icon": {"16":"./img/favicon16.png"
+        },
+        "default_title": "MyBookMarks",
+        "default_popup": "popup.html"
+    }
+}
